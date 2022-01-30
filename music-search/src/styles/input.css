@@ -1,0 +1,11 @@
+.debounce-input {
+  padding: 8px;
+  width: 400px;
+  border-radius: 6px;
+  border: 1px solid #5c5c5c;
+}
+
+.debounce-input:focus-visible {
+  transform: scale(1.02);
+  transition: all ease-in-out 200ms;
+}
